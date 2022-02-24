@@ -1,0 +1,87 @@
+body{
+    color: white;
+    background-image: url(download.jpeg) 
+}
+
+.seções{
+    text-align: center;
+}
+
+.list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin-right: 35px;
+    list-style-type: none;
+}
+
+.list a{
+    color: white;
+}
+
+.trybe{
+    color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.sobremim{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr{
+    border-left: 2px;
+}
+
+span{
+    font-family: fantasy
+}
+
+.hab{
+    text-align: center;
+}
+
+.list2{
+    text-align: center;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.blog{
+    color: rgb(49, 158, 158);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border: 2px solid;    
+}
+
+.unix{
+    font-size: 15px;
+}
+
+.bash{
+    font-size: 17.5px;
+}
+
+.git{
+    font-size: 20px;
+}
+
+.github{
+    font-size: 22.5px;
+}
+
+.html{
+    font-size: 25px;
+}
+
+
