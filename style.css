@@ -107,7 +107,7 @@ ul li:nth-child(odd){
 }
 
 ul li:hover{
-    font-size: 30px;
+    font-size: 35px;
     color: black;
 }
 
@@ -147,6 +147,10 @@ ul li:active{
 
 .html{
     font-size: 25px;
+}
+
+.css{
+    font-size: 27.5px;
 }
 
 .linha{
