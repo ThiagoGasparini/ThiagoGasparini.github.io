@@ -22,17 +22,20 @@ const Header = () => {
         >
           <img className="imgGit" src={imgGit} alt="github" />
         </a>
-        <Link to="/about" className="about">
-          About
+        <Link to="/about" className="links">
+          Sobre mim
         </Link>
-        <Link to="/contact" className="contact">
-          Contact
+        <Link to="/contact" className="links">
+          Contatos
         </Link>
-        <Link to="/projects" className="projects">
-          Projects
+        <Link to="/projects" className="links">
+          Projetos
         </Link>
-        <Link to="/skills" className="projects">
-          Skills
+        <Link to="/skills" className="links">
+          Habilidades
+        </Link>
+        <Link to="/" className="links">
+          Início
         </Link>
       </div>
     </div>

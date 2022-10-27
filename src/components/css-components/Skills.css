@@ -1,0 +1,47 @@
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+
+.cards {
+  text-align: center;
+  display: flex;
+}
+
+.card-1 {
+  display: table;
+  background-color: blueviolet;
+  margin: auto;
+  margin-left: 10%;
+  max-width: 35%;
+  max-height: 35%;
+  border-radius: 20px;
+  padding: 1%;
+  color: #fff;
+}
+
+.card-2 {
+  display: table;
+  background-color: blueviolet;
+  margin: auto;
+  margin-right: 10%;
+  max-width: 37.5%;
+  max-height: 35%;
+  border-radius: 20px;
+  padding: 1%;
+  color: #fff;
+}
+
+.cards-down {
+  text-align: center;
+  display: flex;
+}
+
+.img {
+  margin-right: 10px;
+  margin-left: 2px;
+  margin: 5px;
+  width: 40%;
+  border-radius: 10px;
+}

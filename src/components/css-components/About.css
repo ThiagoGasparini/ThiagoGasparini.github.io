@@ -1,0 +1,23 @@
+.imgMe {
+  width: 17em;
+  border-radius: 50px 150px;
+  padding: 5px;
+  background-color: white;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.aboutMe {
+  margin-left: 1.5em;
+  width: 45%;
+  background-color: blueviolet;
+  padding: 0.5px 20px;
+  border-radius: 10px;
+  font-size: 17px;
+  color: #fff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

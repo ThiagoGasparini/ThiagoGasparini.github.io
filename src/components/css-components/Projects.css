@@ -1,0 +1,15 @@
+.img-projects {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.cards {
+  display: table;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
