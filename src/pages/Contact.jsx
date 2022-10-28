@@ -60,7 +60,7 @@ const Contact = () => {
             </div>
             <div className="name-input">
               <label className="namelabel" htmlFor="subject">
-                Subject*{' '}
+                Assunto*{' '}
               </label>
               <input
                 className="nameInput"
