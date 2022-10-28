@@ -21,3 +21,18 @@
   color: #fff;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+@media screen and (max-width: 520px) {
+  .about {
+    display: flex;
+  }
+  .imgMe {
+    width: 40vw;
+    height: 70vw;
+    border-radius: 50px 50px;
+  }
+  .aboutMe {
+    width: 51vh;
+    font-size: 10px;
+  }
+}

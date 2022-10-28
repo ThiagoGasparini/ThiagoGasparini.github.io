@@ -8,16 +8,17 @@ const Projects = () => {
     <div>
       <Header />
       <h1 className="title">Projetos</h1>
-      <div className="cards">
+      <span className="container">
         {results.map((result) => (
-          <div>
-            <p>{result.name}</p>
             <a target="_blank" href={result.github} rel="noreferrer">
+              <div className='card'>
+              <p>{result.name}</p>
+              <p>Tecnologia: { result.description }</p>
               <img className="img-projects" src={result.src} alt="" />
+              </div>
             </a>
-          </div>
         ))}
-      </div>
+      </span>
     </div>
   );
 };

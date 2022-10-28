@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import imgEjs from '../Images/ejs.png';
 import './css-components/Skills.css';
 
 const Skills = () => {
@@ -7,7 +8,7 @@ const Skills = () => {
     <div>
       <Header />
       <h1 className="title">Habilidades</h1>
-      <div className="cards">
+      <span className='container'>
         <div className="card-1">
           <h1>Front-end</h1>
           <img
@@ -44,6 +45,11 @@ const Skills = () => {
             src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"
             alt="Redux"
             className="img"
+          />
+          <img
+            src={imgEjs}
+            alt="EJS"
+            className="imgEjs"
           />
         </div>
         <div className="card-2">
@@ -89,7 +95,7 @@ const Skills = () => {
             className="img"
           />
         </div>
-      </div>
+      </span>
     </div>
   );
 };

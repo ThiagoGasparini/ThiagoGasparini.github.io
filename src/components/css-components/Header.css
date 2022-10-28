@@ -12,7 +12,30 @@
   color: #fff;
 }
 
+.links:hover {
+  color: black;
+}
+
 .imgGit {
   width: 30px;
   margin-right: 15px;
+  transition-duration: 1s;
 }
+
+.imgGit:hover {
+  width: 32px;
+  transition: 250ms linear; 
+}
+
+@media screen and (max-width: 520px) {
+  .header {
+    text-decoration: none;
+    color: #fff;
+    background-color: blueviolet;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+

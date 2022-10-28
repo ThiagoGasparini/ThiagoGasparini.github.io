@@ -1,15 +1,44 @@
 .img-projects {
-  width: 30%;
+  width: 90%;
+  height: 70%;
   border-radius: 10px;
-}
-
-.cards {
-  display: table;
-  color: #fff;
 }
 
 .title {
   text-align: center;
   color: #fff;
   font-size: 40px;
+}
+
+.card {
+  text-align: center;
+  background-color: blueviolet;
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 1%;
+  color: #fff;
+  margin-bottom: 2em;
+  transition-duration: 500ms;
+}
+
+.card:hover {
+  width: 470px;
+  height: 370px;
+  color: black;
+  transition: 250ms linear; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 520px) {
+  .card {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+  } 
 }
