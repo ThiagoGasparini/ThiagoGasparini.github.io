@@ -24,6 +24,11 @@ body {
   color: #fff;
 }
 
+.card-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card-1:hover {
   color: black;
 }
@@ -55,15 +60,16 @@ body {
 }
 
 .imgEjs {
-  width: 150px;
+  width: 45%;
   height: 70px;
   margin-bottom: 10px;
-  margin-left: 25px;
+  margin-left: 2%;
+  margin-right: 2%;
   border-radius: 10px;
 }
 
 .imgEjs:hover {
-  width: 160px;
+  width: 46%;
 }
 
 @media screen and (max-width: 520px) {
@@ -80,7 +86,12 @@ body {
     margin-top: 5%;
   }
   .imgEjs {
+    margin-top: 14px;
     width: 130px;
     height: 45px;
+  }
+  .card-img {
+    display: flex;
+    justify-content: center;
   }
 }
