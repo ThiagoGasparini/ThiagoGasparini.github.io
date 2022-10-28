@@ -23,7 +23,7 @@ const Header = () => {
           <img className="imgGit" src={imgGit} alt="github" />
         </a>
         <Link to="/about" className="links">
-          Sobre mim
+          Sobre
         </Link>
         <Link to="/contact" className="links">
           Contatos

@@ -31,12 +31,21 @@ body {
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .imgArrow {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .name {
     font-size: 45px;
   }
   .dev {
     margin-top: 15%;
+  }
+  .imgArrow {
+    display: none;
   }
 }
 
