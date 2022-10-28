@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import emailjs from 'emailjs-com';
 import './pages-css/Contact.css';
+
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -89,6 +91,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

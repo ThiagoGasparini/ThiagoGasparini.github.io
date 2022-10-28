@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import imgEjs from '../Images/ejs.png';
 import './pages-css/Skills.css';
 
@@ -97,6 +98,7 @@ const Skills = () => {
           </div>
         </div>
       </span>
+      <Footer />
     </div>
   );
 };

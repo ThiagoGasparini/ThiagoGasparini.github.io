@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import results from '../utils/data';
 import './pages-css/Projects.css';
 
@@ -19,6 +20,7 @@ const Projects = () => {
             </a>
         ))}
       </span>
+      <Footer />
     </div>
   );
 };

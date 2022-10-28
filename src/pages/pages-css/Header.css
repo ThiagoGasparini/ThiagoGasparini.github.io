@@ -17,6 +17,7 @@
 }
 
 .imgGit {
+  border-radius: 8px;
   width: 30px;
   margin-right: 15px;
   transition-duration: 1s;

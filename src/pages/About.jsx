@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import imgMe from '../Images/thiago.jpg';
 import './pages-css/About.css';
 
@@ -41,6 +42,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
