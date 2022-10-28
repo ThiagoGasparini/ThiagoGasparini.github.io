@@ -31,12 +31,23 @@ body {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 620px) {
   .name {
     font-size: 45px;
   }
   .dev {
     margin-top: 15%;
   }
-  
+}
+
+@media screen and (max-width: 350px) {
+  .name {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .name {
+    font-size: 25px;
+  }
 }

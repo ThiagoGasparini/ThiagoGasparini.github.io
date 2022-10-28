@@ -82,7 +82,7 @@ body {
     width: 90%;
   }
   .img {
-    width: 40%;
+    width: 35%;
     margin-top: 5%;
   }
   .imgEjs {
@@ -93,5 +93,25 @@ body {
   .card-img {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1041px) {
+  .card-1 {
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .card-1 {
+    width: 350px;
+    height: 300px;
+  }
+  .card-2 {
+    width: 350px;
+    height: 300px;
+  }
+  .img {
+    width: 25%;
   }
 }

@@ -22,17 +22,24 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 768px) {
   .about {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
   .imgMe {
     width: 40vw;
-    height: 70vw;
+    height: 60vw;
     border-radius: 50px 50px;
+    margin-bottom: 2%;
+    margin-top: -5%;
   }
   .aboutMe {
-    width: 51vh;
-    font-size: 10px;
+    width: 80%;
+    font-size: 12px;
+    margin-bottom: 5%;
+
   }
 }

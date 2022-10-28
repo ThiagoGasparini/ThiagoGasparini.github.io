@@ -6,7 +6,7 @@ import './pages-css/Header.css';
 
 const Header = () => {
   return (
-    <div>
+    <div className='body'>
       <div className="header">
         <a
           target="_blank"
