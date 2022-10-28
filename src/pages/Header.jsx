@@ -2,7 +2,7 @@ import React from 'react';
 import imgGit from '../Images/picwish.png';
 import imgLinkedin from '../Images/linkedin.png';
 import { Link } from 'react-router-dom';
-import './css-components/Header.css';
+import './pages-css/Header.css';
 
 const Header = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import imgArrow from '../Images/flexa-removebg-preview.png';
 import Header from "./Header";
-import './css-components/Home.css';
+import './pages-css/Home.css';
 
 const Home = () => {
   return (

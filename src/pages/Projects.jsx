@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import results from '../utils/data';
-import './css-components/Projects.css';
+import './pages-css/Projects.css';
 
 const Projects = () => {
   return (

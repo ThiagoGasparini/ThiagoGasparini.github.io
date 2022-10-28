@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import imgEjs from '../Images/ejs.png';
-import './css-components/Skills.css';
+import './pages-css/Skills.css';
 
 const Skills = () => {
   return (

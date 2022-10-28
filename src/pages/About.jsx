@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import imgMe from '../Images/thiago.jpg';
-import './css-components/About.css';
+import './pages-css/About.css';
 
 const About = () => {
   const birthDay = 1993;
