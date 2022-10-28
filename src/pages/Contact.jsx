@@ -20,19 +20,23 @@ const Contact = () => {
       <div>
         <form onSubmit={sendEmail}>
           <div>
-            <label htmlFor="name">Nome</label>
+            <label htmlFor="name">Nome*</label>
             <input type="text" name="name" id="name" required placeholder="Digite seu Nome" />
           </div>
           <div>
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email*</label>
             <input type="email" name="email" id="email" required placeholder="Digite seu Email" />
           </div>
           <div>
-            <label htmlFor="message">Mensagem</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <label htmlFor="subject">Subject*</label>
+            <input type="text" name="subject" id="subject" required placeholder="Digite um Assunto" />
           </div>
           <div>
-            <input type="submit" name="message" required placeholder="Digite uma mensagem" />
+            <label htmlFor="message">Mensagem*</label>
+            <textarea name="message" id="message" required cols="30" rows="10" placeholder="Digite uma mensagem"></textarea>
+          </div>
+          <div>
+            <input type="submit" name=""/>
           </div>
         </form>
       </div>
