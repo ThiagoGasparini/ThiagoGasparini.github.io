@@ -22,7 +22,27 @@ body {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
 
+.dev {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40) 5s normal both;
+}
+
+.dev1 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes arrow {
@@ -37,9 +57,9 @@ body {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 830px) {
   .name {
-    font-size: 45px;
+    font-size: 70px;
   }
   .dev {
     margin-top: 15%;
@@ -49,13 +69,39 @@ body {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 730px) {
+  .name {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .name {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .name {
+    font-size: 40px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .name {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 360px) {
   .name {
     font-size: 30px;
   }
 }
 
-@media screen and (max-width: 300px) {
+
+@media screen and (max-width: 310px) {
   .name {
     font-size: 25px;
   }

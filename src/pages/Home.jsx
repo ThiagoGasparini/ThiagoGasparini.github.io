@@ -9,8 +9,9 @@ const Home = () => {
       <Header />
       <img id="arrow" className="imgArrow" src={imgArrow} alt="" />
       <div className="name">
-        <strong><em><div>Thiago Gasparini</div></em></strong>
+        <strong><em><div className="dev1">Thiago Gasparini</div></em></strong>
         <em><div className="dev">Desenvolvedor Web</div></em>
+        <div className="div"></div>
       </div>
     </div>
   );
