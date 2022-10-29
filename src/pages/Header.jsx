@@ -26,7 +26,7 @@ const Header = () => {
           Sobre
         </Link>
         <Link to="/contact" className="links">
-          Contatos
+          Contato
         </Link>
         <Link to="/projects" className="links">
           Projetos
