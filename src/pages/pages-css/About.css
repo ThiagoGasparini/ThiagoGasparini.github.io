@@ -22,24 +22,24 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40) 1s normal both;
+}
+
 @media screen and (max-width: 768px) {
   .about {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
+    margin-bottom: 7%;
+    border-right: 2px solid rgba(137, 43, 226, 0.582) ;
   }
   .imgMe {
-    width: 40vw;
-    height: 60vw;
-    border-radius: 50px 50px;
-    margin-bottom: 2%;
-    margin-top: -5%;
+    display: none;
   }
   .aboutMe {
     width: 80%;
     font-size: 12px;
     margin-bottom: 5%;
-
   }
 }

@@ -13,7 +13,7 @@ const About = () => {
       <div className="about">
         <img className="imgMe" src={imgMe} alt="forMe" />
         <div className="aboutMe">
-          <h1>Olá,</h1>
+          <h1 className='title'>Olá,</h1>
           <p>
             Me chamo Thiago Gasparini, tenho {age} anos de idade e moro em
             Curitiba-PR
