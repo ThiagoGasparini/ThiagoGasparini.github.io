@@ -1,10 +1,10 @@
 import blogImg from '../Images/blogs-api.png';
-import jsImg from '../Images/js-functions.jpeg';
+import javascriptImg from '../Images/javascript.png'
 import starImg from '../Images/star-wars.jpeg';
 import storeImg from '../Images/store-manager.png';
 import rtlImg from '../Images/tests-with-rtl.png';
 import tfcImg from '../Images/trybe-futebol-clube.png';
-import tadImg from '../Images/trybers-and-dragons.jpeg';
+import tadImg from '../Images/dragons.jpeg';
 import tsImg from '../Images/trybesmith.png';
 import tmImg from '../Images/talker.png';
 import mysqlImg from '../Images/mysql.png';
@@ -12,42 +12,6 @@ import dockerImg from '../Images/docker.png';
 import jestImg from '../Images/jest.png';
 
 const results = [
-  {
-    src: jsImg,
-    name: 'JS Functions',
-    description: 'JavaScript',
-    github: 'https://github.com/ThiagoGasparini/JavaScript-Functions',
-  },
-  {
-    src: jestImg,
-    name: 'JS Testes Unitários',
-    description: 'Testes Unitários / JavaScript',
-    github: 'https://github.com/ThiagoGasparini/project-js-unit-tests',
-  },
-  {
-    src: starImg,
-    name: 'Star Wars',
-    description: 'React / Hooks',
-    github: 'https://github.com/ThiagoGasparini/project-starwars-react-hooks',
-  },
-  {
-    src: rtlImg,
-    name: 'RTL - React Testing Library',
-    description: 'React Testing Library',
-    github: 'https://github.com/ThiagoGasparini/project-react-testing-library',
-  },
-  {
-    src: dockerImg,
-    name: 'Docker to do List',
-    description: 'Docker',
-    github: 'https://github.com/ThiagoGasparini/docker-todo-list',
-  },
-  {
-    src: mysqlImg,
-    name: 'One For All',
-    description: 'MySQL',
-    github: 'https://github.com/ThiagoGasparini/MySQL-Project-One-For-All',
-  },
   {
     src: blogImg,
     name: 'Blogs API',
@@ -85,6 +49,42 @@ const results = [
     name: 'TrybeSmith',
     description: 'TypeScript',
     github: 'https://github.com/ThiagoGasparini/Project-TypeScript-TrybeSmith',
+  },
+  {
+    src: dockerImg,
+    name: 'Docker to do List',
+    description: 'Docker',
+    github: 'https://github.com/ThiagoGasparini/docker-todo-list',
+  },
+  {
+    src: mysqlImg,
+    name: 'One For All',
+    description: 'MySQL',
+    github: 'https://github.com/ThiagoGasparini/MySQL-Project-One-For-All',
+  },
+  {
+    src: javascriptImg,
+    name: 'JS Functions',
+    description: 'JavaScript',
+    github: 'https://github.com/ThiagoGasparini/JavaScript-Functions',
+  },
+  {
+    src: jestImg,
+    name: 'JS Testes Unitários',
+    description: 'Testes Unitários / JavaScript',
+    github: 'https://github.com/ThiagoGasparini/project-js-unit-tests',
+  },
+  {
+    src: starImg,
+    name: 'Star Wars',
+    description: 'React / Hooks',
+    github: 'https://github.com/ThiagoGasparini/project-starwars-react-hooks',
+  },
+  {
+    src: rtlImg,
+    name: 'RTL - React Testing Library',
+    description: 'React Testing Library',
+    github: 'https://github.com/ThiagoGasparini/project-react-testing-library',
   },
 ];
 

@@ -11,13 +11,13 @@ const Projects = () => {
       <h1 className="title">Projetos</h1>
       <span className="container">
         {results.map((result) => (
-            <a target="_blank" href={result.github} rel="noreferrer">
-              <div className='card'>
+          <a target="_blank" href={result.github} rel="noreferrer">
+            <div className="card">
               <p>{result.name}</p>
-              <p>Tecnologia: { result.description }</p>
+              <p>Tecnologia: {result.description}</p>
               <img className="img-projects" src={result.src} alt="" />
-              </div>
-            </a>
+            </div>
+          </a>
         ))}
       </span>
       <Footer />

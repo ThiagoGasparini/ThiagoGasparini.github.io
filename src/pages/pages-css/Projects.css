@@ -2,6 +2,9 @@
   width: 90%;
   height: 70%;
   border-radius: 10px;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .title {
@@ -20,6 +23,7 @@
   color: #fff;
   margin-bottom: 2em;
   transition-duration: 500ms;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .card:hover {
@@ -40,5 +44,9 @@
     width: 90%;
     margin: auto;
     margin-bottom: 5%;
+    box-shadow: -9px -7px 5px rgba(50, 50, 50, 0.77);
   } 
+  .img-projects {
+    box-shadow: -9px -7px 5px rgba(50, 50, 50, 0.5);
+  }
 }

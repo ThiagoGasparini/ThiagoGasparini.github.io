@@ -9,10 +9,15 @@
 }
 
 .nameInput {
+  color: #fff;
+  margin-top: 1%;
   width: 100%;
-  font-size: 50px;
+  font-size: 45px;
   border-radius: 15px;
   background-color: blueviolet;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .nameInput::placeholder {
@@ -23,10 +28,6 @@
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 20px;
-}
-
-.namelabel {
-  margin-bottom: 10px;
 }
 
 .sub {
@@ -40,6 +41,15 @@
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  transition-duration: 500ms;
+}
+
+.sub:hover {
+  font-size: 23px;
+  transition: 250ms linear; 
 }
 
 .form {
@@ -51,6 +61,13 @@
 @media screen and (max-width: 520px) {
   .name-input {
     width: 100%;
+  }
+  .nameInput {
+    margin-top: 3%;
+    box-shadow: -9px -7px 5px rgba(50, 50, 50, 0.77);
+  }
+  .sub {
+    box-shadow: -9px -7px 5px rgba(50, 50, 50, 0.77);
   }
 }
 

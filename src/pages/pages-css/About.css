@@ -17,8 +17,11 @@
   background-color: blueviolet;
   padding: 0.5px 20px;
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 16px;
   color: #fff;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -32,14 +35,14 @@
   .about {
     display: flex;
     margin-bottom: 7%;
-    border-right: 2px solid rgba(137, 43, 226, 0.582) ;
   }
   .imgMe {
     display: none;
   }
   .aboutMe {
     width: 80%;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 5%;
+    box-shadow: -9px -7px 10px rgba(50, 50, 50, 0.6);
   }
 }

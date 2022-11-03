@@ -5,23 +5,20 @@ import imgMe from '../Images/thiago.jpg';
 import './pages-css/About.css';
 
 const About = () => {
-  const birthDay = 1993;
-  const age = new Date().getFullYear() - birthDay;
   return (
     <div>
       <Header />
       <div className="about">
         <img className="imgMe" src={imgMe} alt="forMe" />
         <div className="aboutMe">
-          <h1 className='title'>Olá,</h1>
+          <h1 className="title">Olá,</h1>
           <p>
-            Me chamo Thiago Gasparini, tenho {age} anos de idade e moro em
+            Me chamo Thiago Gasparini, tenho 29 anos de idade e moro em
             Curitiba-PR
           </p>
           <p>
-            Sou Graduado pelo Centro Universitário UniOpet em Engenharia Civil e
-            atualmente estudante de Desenvolvimento Web Full Stack na Trybe,
-            escola que nos ensina a programar, a aprender e a trabalhar.
+            Graduado pelo Centro Universitário UniOpet em Engenharia Civil e
+            atualmente estudante de Desenvolvimento Web Full Stack na Trybe.
           </p>
           <p>
             Com grande desejo de migrar para a área de desenvolvimento de
@@ -30,11 +27,12 @@ const About = () => {
             carreira.
           </p>
           <p>
-            Linguagens de programação extremamente essenciais para o mercado
-            atual, como JavaScript, e, frameworks como React e Redux para o
-            front-end; MySQL, Docker, Node.js, TypeScript, POO e MongoDB para o
-            Back-end; Além de estruturas de dados utilizando Python, são
-            tecnologias vistas durante o curso Full Stack da Trybe.
+            Maravilhado pela conexão do front-end com o back-end, resolvi me
+            desenvolver como Full Stack. Possuo conhecimentos em HTML5, CSS3,
+            JavaScript, React.js, Testes Automatizados com Jest e RTL no front.
+            MySQL, Docker, Node.js, TypeScript, POO, MongoDB e testes com Mocha
+            e Sinon no back. Também estou estudando e me aprimorando com cursos
+            pela Udemy.
           </p>
           <p>
             Sou apaixonado por tecnologia e como ela pode facilitar e melhorar a
