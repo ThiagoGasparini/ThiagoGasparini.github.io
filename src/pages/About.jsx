@@ -23,8 +23,8 @@ const About = () => {
           <p>
             Com grande desejo de migrar para a área de desenvolvimento de
             software, que reverberou internamente por muito tempo em minha vida,
-            decidi que esse era o momento para realizar essa transição de
-            carreira.
+            decidi então iniciar minha transição de
+            carreira em dezembro de 2021.
           </p>
           <p>
             Maravilhado pela conexão do front-end com o back-end, resolvi me
@@ -35,7 +35,7 @@ const About = () => {
             pela Udemy.
           </p>
           <p>
-            Sou apaixonado por tecnologia e como ela pode facilitar e melhorar a
+            Sou apaixonado por tecnologia e como ela pode impactar e melhorar a
             nossa qualidade de vida.
           </p>
         </div>
