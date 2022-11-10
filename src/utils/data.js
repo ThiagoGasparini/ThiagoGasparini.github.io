@@ -10,6 +10,8 @@ import tmImg from '../Images/talker.png';
 import mysqlImg from '../Images/mysql.png';
 import dockerImg from '../Images/docker.png';
 import jestImg from '../Images/jest.png';
+import mongoDbImg from '../Images/mongodb.png';
+import todolistImg from '../Images/todolist.jpeg';
 
 const results = [
   {
@@ -63,10 +65,22 @@ const results = [
     github: 'https://github.com/ThiagoGasparini/MySQL-Project-One-For-All',
   },
   {
+    src: mongoDbImg,
+    name: 'Commerce',
+    description: 'MongoDB',
+    github: 'https://github.com/ThiagoGasparini/Project-Commerce-MongoDB',
+  },
+  {
     src: javascriptImg,
     name: 'JS Functions',
     description: 'JavaScript',
     github: 'https://github.com/ThiagoGasparini/JavaScript-Functions',
+  },
+  {
+    src: todolistImg,
+    name: 'to-do-list',
+    description: 'JavaScript',
+    github: 'https://github.com/ThiagoGasparini/To-do-List',
   },
   {
     src: jestImg,
