@@ -12,8 +12,22 @@ import dockerImg from '../Images/docker.png';
 import jestImg from '../Images/jest.png';
 import mongoDbImg from '../Images/mongodb.png';
 import todolistImg from '../Images/todolist.jpeg';
+import blog from '../Images/blog.jpeg';
+import appointmentImg from '../Images/consulta.jpeg';
 
 const results = [
+  {
+    src: appointmentImg,
+    name: 'Cadastro de Consulta - Aplicação FullStack',
+    description: 'React.js / Node.js / MySQL',
+    github: 'https://github.com/ThiagoGasparini/Projeto-Cadastro-Consultas',
+  },
+  {
+    src: blog,
+    name: 'Blog - Aplicação FullStack',
+    description: 'EJS / Node.js / MySQL',
+    github: 'https://github.com/ThiagoGasparini/Blog-Full-Stack-Aplication-EJS-Node',
+  },
   {
     src: blogImg,
     name: 'Blogs API',
