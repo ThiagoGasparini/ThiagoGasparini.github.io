@@ -14,6 +14,7 @@ import mongoDbImg from '../Images/mongodb.png';
 import todolistImg from '../Images/todolist.jpeg';
 import blog from '../Images/blog.jpeg';
 import appointmentImg from '../Images/consulta.jpeg';
+import moviesImg from '../Images/movies.jpeg';
 
 const results = [
   {
@@ -29,6 +30,13 @@ const results = [
     description: 'EJS / Node.js / MySQL',
     github: 'https://github.com/ThiagoGasparini/Blog-Full-Stack-Aplication-EJS-Node',
     type: 'fullstack',
+  },
+  {
+    src: moviesImg,
+    name: 'Movies API',
+    description: 'Node.js / TypeScript / TypeORM',
+    github: 'https://github.com/ThiagoGasparini/API-Films',
+    type: 'backend',
   },
   {
     src: blogImg,

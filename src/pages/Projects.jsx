@@ -8,7 +8,7 @@ const Projects = () => {
   const [frontend, setFrontend] = useState([]);
   const [backend, setBackend] = useState([]);
   const [fullstack, setFullstack] = useState([]);
- 
+
   const allBtn = () => {
     setFrontend([]);
     setBackend([]);
@@ -18,11 +18,15 @@ const Projects = () => {
   const frontBtn = () => {
     const frontendBtn = results.filter((result) => result.type === 'frontend');
     setFrontend(frontendBtn);
+    setBackend([]);
+    setFullstack([]);
   };
 
   const backBtn = () => {
     const backendBtn = results.filter((result) => result.type === 'backend');
     setBackend(backendBtn);
+    setFrontend([]);
+    setFullstack([]);
   };
 
   const fullBtn = () => {
@@ -30,6 +34,8 @@ const Projects = () => {
       (result) => result.type === 'fullstack'
     );
     setFullstack(fullstackBtn);
+    setFrontend([]);
+    setBackend([]);
   };
 
   const maps = (array) =>
@@ -47,11 +53,19 @@ const Projects = () => {
     <div>
       <Header />
       <h1 className="title">Projetos Desenvolvidos</h1>
-      <div className='btns'>
-        <button className='btn' onClick={allBtn}>Todos</button>
-        <button className='btn' onClick={frontBtn}>Frontend</button>
-        <button className='btn' onClick={backBtn}>Backend</button>
-        <button className='btn' onClick={fullBtn}>Fullstack</button>
+      <div className="btns">
+        <button className="btn" onClick={allBtn}>
+          Todos
+        </button>
+        <button className="btn" onClick={frontBtn}>
+          Frontend
+        </button>
+        <button className="btn" onClick={backBtn}>
+          Backend
+        </button>
+        <button className="btn" onClick={fullBtn}>
+          Fullstack
+        </button>
       </div>
       <span className="container">
         {fullstack.length
