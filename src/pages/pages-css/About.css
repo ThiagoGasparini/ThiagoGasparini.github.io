@@ -28,7 +28,7 @@
 .title {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(40) 1s normal both;
+  animation: typing 2s steps(40) 1s normal both;
 }
 
 @media screen and (max-width: 768px) {
