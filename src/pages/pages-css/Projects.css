@@ -7,6 +7,22 @@
 	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.btn {
+  margin-left: 1%;
+  padding: 5px;
+  width: 85px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: #fff;
+}
+
 .title {
   text-align: center;
   color: #fff;
