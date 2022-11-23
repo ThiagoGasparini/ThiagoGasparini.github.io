@@ -21,6 +21,11 @@
   border-radius: 10px;
   background-color: blueviolet;
   color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
 }
 
 .title {
@@ -61,8 +66,21 @@
     margin: auto;
     margin-bottom: 5%;
     box-shadow: -9px -7px 5px rgba(50, 50, 50, 0.77);
-  } 
+  }
+  .title {
+    font-size: 30px;
+  }
   .img-projects {
     box-shadow: -9px -7px 5px rgba(50, 50, 50, 0.5);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .title {
+    font-size: 25px;
+  }
+  .btn {
+    width: 70px;
+    font-size: 12px;
   }
 }
