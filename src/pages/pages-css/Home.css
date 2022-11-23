@@ -27,13 +27,13 @@ body {
 .dev {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(40) 5s normal both;
+  animation: typing 2s steps(40) 3s normal both;
 }
 
 .dev1 {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(40) 1s normal both;
+  animation: typing 2s steps(40) 1s normal both;
 }
 
 @keyframes typing {

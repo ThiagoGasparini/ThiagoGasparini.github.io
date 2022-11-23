@@ -46,7 +46,7 @@ const Projects = () => {
   return (
     <div>
       <Header />
-      <h1 className="title">Projetos</h1>
+      <h1 className="title">Projetos Desenvolvidos</h1>
       <div className='btns'>
         <button className='btn' onClick={allBtn}>Todos</button>
         <button className='btn' onClick={frontBtn}>Frontend</button>
