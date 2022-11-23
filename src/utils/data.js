@@ -15,6 +15,7 @@ import todolistImg from '../Images/todolist.jpeg';
 import blog from '../Images/blog.jpeg';
 import appointmentImg from '../Images/consulta.jpeg';
 import moviesImg from '../Images/movies.jpeg';
+import carshopImg from '../Images/carshop.jpeg';
 
 const results = [
   {
@@ -71,6 +72,13 @@ const results = [
     name: 'Trybers and Dragons',
     description: 'POO',
     github: 'https://github.com/ThiagoGasparini/Project-Tryber-And-Dragon-POO',
+    type: 'backend',
+  },
+  {
+    src: carshopImg,
+    name: 'Car Shop API',
+    description: 'TypeScript / POO / Mongoose',
+    github: 'https://github.com/ThiagoGasparini/Project-Car-Shop-TypeScript-POO',
     type: 'backend',
   },
   {
