@@ -1,21 +1,21 @@
 import blogImg from '../Images/blogs-api.png';
 import javascriptImg from '../Images/javascript.png';
-import starImg from '../Images/star-wars.jpeg';
+import starImg from '../Images/star-wars.png';
 import storeImg from '../Images/store-manager.png';
 import rtlImg from '../Images/tests-with-rtl.png';
 import tfcImg from '../Images/trybe-futebol-clube.png';
-import tadImg from '../Images/dragons.jpeg';
+import tadImg from '../Images/dragons.png';
 import tsImg from '../Images/trybesmith.png';
 import tmImg from '../Images/talker.png';
 import mysqlImg from '../Images/mysql.png';
 import dockerImg from '../Images/docker.png';
 import jestImg from '../Images/jest.png';
 import mongoDbImg from '../Images/mongodb.png';
-import todolistImg from '../Images/todolist.jpeg';
+import todolistImg from '../Images/todolist.png';
 import blog from '../Images/blog.jpeg';
-import appointmentImg from '../Images/consulta.jpeg';
-import moviesImg from '../Images/movies.jpeg';
-import carshopImg from '../Images/carshop.jpeg';
+import appointmentImg from '../Images/consulta.png';
+import moviesImg from '../Images/movies.png';
+import carshopImg from '../Images/carshop.png';
 
 const results = [
   {
