@@ -13,33 +13,34 @@ const About = () => {
         <div className="aboutMe">
           <h1 className="title">Olá,</h1>
           <p>
-            Me chamo Thiago Gasparini, tenho 29 anos e sou graduado em
-            Engenharia Civil.
+            Gostaria de me apresentar formalmente: meu nome é Thiago Gasparini,
+            tenho 30 anos e atualmente estou cursando Análise e Desenvolvimento
+            de Sistemas na PUCPR, com previsão de conclusão para julho de 2026.
+            Além disso, possuo uma graduação completa em Engenharia Civil, mas
+            decidi migrar para o desenvolvimento de software em dezembro de
+            2021.
           </p>
           <p>
-            Por não ter me identificado com as áreas da minha graduação e com
-            grande desejo de migrar para o desenvolvimento de software, que
-            reverberou internamente por muito tempo em minha vida, decidi então
-            iniciar minha transição de carreira para o mundo da programação em
-            dezembro de 2021.
+            Completei o curso de Desenvolvimento Web Full Stack pela Trybe em
+            fevereiro de 2023, complementando minha formação com alguns cursos
+            profissionalizantes na Udemy e JStack. Atualmente, estou cursando
+            Análise e Desenvolvimento de Sistemas na PUCPR, como mencionado
+            anteriormente. Ao longo desse período, realizei diversos projetos
+            práticos de programação, os quais estão disponíveis em meu
+            portfólio, LinkedIn e GitHub.
           </p>
           <p>
-            Atualmente sou estudante de desenvolvimento Web Full Stack na Trybe,
-            faço alguns cursos profissionalizantes pela Udemy e já realizei
-            alguns projetos, como consta em meu portfólio, linkedin e github.
+            Tenho conhecimento em desenvolvimento Front-end (HTML5, CSS3,
+            JavaScript, TypeScript, React.js) e Back-end (MySQL, PostgreSQL,
+            Node.js, Express.js, Docker). No meu curso de Análise e
+            Desenvolvimento de Sistemas, as disciplinas abrangem temas como Web,
+            Dispositivos Móveis, Big Data, IoT, Banco de Dados, Engenharia de
+            Software e Gestão de Projetos, assim como metodologias ágeis (SCRUM
+            e KANBAN).
           </p>
           <p>
-            Maravilhado pela conexão do Front-end com o Back-end, resolvi me
-            aprofundar na carreira como Full Stack. Possuo conhecimentos em
-            HTML5, CSS3, JavaScript, React.js, EJS, Testes unitários com Jest e
-            RTL no Front-end. MySQL, PostgreSQL, Docker, Node.js, Express.js,
-            Sequelize, TypeORM, TypeScript, POO, MongoDB e testes com Mocha,
-            Chai e Sinon no Back-end. Assim como metodologias ágeis (SCRUM e
-            KANBAN).
-          </p>
-          <p>
-            Sou apaixonado por tecnologia e como ela pode impactar e melhorar a
-            qualidade de vida das pessoas.
+            Nutro uma paixão pela tecnologia e pela forma como ela pode impactar
+            e melhorar a qualidade de vida das pessoas.
           </p>
         </div>
       </div>
