@@ -93,7 +93,7 @@ const results = [
     name: 'Docker to do List',
     description: 'Docker',
     github: 'https://github.com/ThiagoGasparini/docker-todo-list',
-    type: 'fullstack',
+    type: 'backend',
   },
   {
     src: mysqlImg,
