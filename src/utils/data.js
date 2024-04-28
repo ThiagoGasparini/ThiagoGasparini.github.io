@@ -27,9 +27,9 @@ const results = [
   },
   {
     src: blog,
-    name: 'Blog - Aplicação FullStack',
-    description: 'EJS / Node.js / MySQL',
-    github: 'https://github.com/ThiagoGasparini/Blog-Full-Stack-Aplication-EJS-Node',
+    name: 'Projeto de Registro - Aplicação FullStack',
+    description: 'React.js / Node.js / MySQL',
+    github: 'https://github.com/ThiagoGasparini/Project-Registration-Fullstack',
     type: 'fullstack',
   },
   {
